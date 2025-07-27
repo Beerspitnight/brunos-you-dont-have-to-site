@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruno’s You Don’t Have To - The Website</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Sora:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8PSN3HFPC"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-K8PSN3HFPC');
+    </script>
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span style="display: inline-block; vertical-align: middle;">
+                    <img src="images/orange_hero_logo.png" alt="Bruno's You Don't Have To Logo" class="logo-img" style="width: 56px; max-height: 56px; height: auto; vertical-align: middle;">
+                </span>
+                <span style="vertical-align: middle; margin-left: 8px;">Bruno’s You Don’t Have To</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#episodes">Listen & Read</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Connect</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section d-flex align-items-center justify-content-center text-center">
+        <div class="container">
+            <h1 class="display-3">Bruno’s You Don’t Have To</h1>
+            <p class="lead mb-4">Short-Form Podcast</p>
+            <div>
+                <a href="#" class="btn btn-primary btn-lg mx-2">Spotify</a>
+                <a href="#" class="btn btn-primary btn-lg mx-2">Apple Podcast</a>
+                <a href="#" class="btn btn-primary btn-lg mx-2">Amazon Music</a>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <!-- About Section (moved above Episodes) -->
+        <section id="about" class="py-5 bg-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <img src="images/bydht_face.png" class="img-fluid rounded shadow-lg" alt="About Bruno" style="max-width: 50%; height: auto;">
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="section-title">About Bruno</h2>
+                        <p>Bruno’s You Don’t Have To is the podcast for the quietly panicking — the overthinkers, recovering people-pleasers, and anyone tired of pretending things are fine.</p>
+                        <p>Released on Tuesday and Thursday Mornings, Bruno will waste no more than 4-minutes of your life with his nonsense.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Embedded Spotify Playlist: Underappreciated Podcasts on Parenting & Surviving Life -->
+        <section class="py-4 bg-white">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h3 class="mb-3">Underappreciated Podcasts on Parenting &amp; Surviving Life</h3>
+                        <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1dqB5OUMXeF2YAi5Vp98aX?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Episodes Section (now below About) -->
+        <section id="episodes" class="py-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">Listen & Read</h2>
+                    <p class="lead">Check out the latest episodes and read the full transcripts.</p>
+                </div>
+                <div class="accordion" id="episodesAccordion">
+                    
+                    <!-- Episode 19 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading19">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse19" aria-expanded="true" aria-controls="collapse19">
+                                Episode 19 - How To Accidentally Hire SS as Security
+                            </button>
+                        </h2>
+                        <div id="collapse19" class="accordion-collapse collapse show" aria-labelledby="heading19" data-bs-parent="#episodesAccordion">
+                            <div class="accordion-body">
+                                <div class="player-links mb-3">
+                                    <a href="#" class="btn btn-sm btn-outline-primary me-2">Spotify</a>
+                                    <a href="#" class="btn btn-sm btn-outline-primary me-2">Apple Podcast</a>
+                                    <a href="#" class="btn btn-sm btn-outline-primary">Amazon Music</a>
+                                </div>
+                                <p>Hello boys and girls, mostly boys. Welcome to another episode of Bruno's You Don't Have To, the short form podcast. I've gotten roomed up with another weirdo, the punk rock straight edge kid from Long We got along really well. We attracted quite a crew of misfits. Part of that was we were badass, right? We all wanted tattoos. We wanted to be cool. So we looked in the yellow book, flipped to T, T- A, T- A- T-T, you get the idea. And we settled on a tattoo shop, gave them a call, come on in. That was our introduction to the Hammerskin. That's slightly hyperbolic. We didn't know that they were Hammerskin at the time. They were just tattoo guys. We recognized that maybe they had a different value system than we did, but they didn't talk about it and we didn't talk about it.<br><br>Fast forward three years, I found myself aligned with a motley crew of misfits. We had a house off campus. We heard through the grapevine that a fraternity in town was very upset with us because they had parties on Wednesday nights and they wanted to come kick our ass. We were scared. So we did what any logical, scared group of kids would do. We called up the tattoo shop. Bill answered. I said, Bill, we have this situation. Frat boys want to come over and kick our ass. Would you and some of your buddies want to come over and just kind of hang out? He said yes.<br><br>Before the party, Bill and two other guys that we knew from the shop showed up, along with three other guys who we'd never met before. We sent them downstairs to the basement, where the keg is. Bill's friend pulls me aside and he said, hey Bri, just in case, and he reaches into his pocket and he pulls out this pistol that's like the size of the palm of his hand. I'm like, dude, no guns, man. I also remember about 30 seconds later, 25 frat boys walked down the steps of our basement with looks of aggression on their faces. The five skinheads turned around, looked at them, and the frat boys walked over the keg and filled it up and hung out for 20 minutes, said thank you, and left.<br><br>I always found people who lived outside the bounds of normal society to be interesting. I didn't agree with Bill's thoughts or his buddies. It was also never a conversation. Bill never asked us our beliefs. We never asked him his. This all came to a dramatic conclusion. I worked for the local beer distributor. I remember Bill at one point had spoken to me about a buddy of his who died from an illness and they were going to hold a benefit for him and he asked me if I could get a deal on some kegs for this party. I said yeah, sure. The next day my boss gave me the local paper. On the front page was a picture of one of our beer trucks delivering kegs of beer to what the headline described as the hammer skin meeting. I didn't go over so well.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Episode 18 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading18">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse18" aria-expanded="false" aria-controls="collapse18">
+                                Episode 18 - Retirement Is a Lie and So Are Cats
+                            </button>
+                        </h2>
+                        <div id="collapse18" class="accordion-collapse collapse" aria-labelledby="heading18" data-bs-parent="#episodesAccordion">
+                            <div class="accordion-body">
+                                <div class="player-links mb-3">
+                                    <a href="#" class="btn btn-sm btn-outline-primary me-2">Spotify</a>
+                                    <a href="#" class="btn btn-sm btn-outline-primary me-2">Apple Podcast</a>
+                                    <a href="#" class="btn btn-sm btn-outline-primary">Amazon Music</a>
+                                </div>
+                                <p>Hello boys and girls, mostly boys age 35 to 44. Welcome to another episode of Bruno's You Don't Have To. Dogs like, and I like dogs. I'm a dog person. I don't want another dog. And that's what I was thinking about recently. I started contemplating retirement some years ago when I thought I'd be able to retire. I'm never going to be able to retire. It's okay. And I thought how cool it'd be to throw a camper on the back of my pickup truck and a dog and drive up to Nova Scotia and wait for the stripers to start running south, follow them to Virginia and then do whatever. It'd be cool to have the companionship of a dog until I really started thinking about it. We had a dog in China. We bought it at a market. It cost $3.79 in 2008 US dollars. I remember taking it to the vet and the vet said, you're going to need to get it spayed in probably six to nine months. The next day I woke up, went downstairs and there was all this brown shit all over the floor, but it wasn't shit. No, it was blood because the dog needed to be neutered the day before because she had her fucking period. I had to call up the driver, have him come over and take me to the veterinary store to go buy a panty liner... it was terrible. The Chinese man just laughed at me and I never enjoyed walking the dog. Taking a dog out to go take a shit is dehumanizing. I also don't like cats and the cats in China were fucking nuts. If you've never seen a Chinese feral cat, you should go check one out because they are fucking massive. They will attack you. My entire yard smelled like cat piss and shit. They used the trampoline as their own little sleeping mat covered in hair. It smelled like shit. So I used to get the dog all riled up. Ready, go get those cats. The dog would go after the cats who would stay on their ground. Dog comes running back inside. Fuck that. One day I went up to the veterinary lady and I said to her, "Hey, I got a cat problem. I got a feral cat problem." And she listened to me and she's like, "I have the perfect program for you. First thing we do, we trap the cats." I'm like, "that's cool, man. Let's trap them." And she's like, "and then we neuter them." Like, "fuck yeah, cut off their balls. Come on." And then she said, "we released them." I said, "where?" She said, "well, back in the neighborhood." What the fuck?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Episode 17 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading17">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
+                                Episode 17 - Turns Out He Wasn’t Being an A$$h0l3
+                            </button>
+                        </h2>
+                        <div id="collapse17" class="accordion-collapse collapse" aria-labelledby="heading17" data-bs-parent="#episodesAccordion">
+                            <div class="accordion-body">
+                                <div class="player-links mb-3">
+                                    <a href="#" class="btn btn-sm btn-outline-primary me-2">Spotify</a>
+                                    <a href="#" class="btn btn-sm btn-outline-primary me-2">Apple Podcast</a>
+                                    <a href="#" class="btn btn-sm btn-outline-primary">Amazon Music</a>
+                                </div>
+                                <p>Transcript for Episode 17 goes here...</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Add other episodes similarly -->
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-5">
+             <div class="container text-center">
+                <h2 class="section-title">Listen, Connect, Shit On</h2>
+                <div class="contact-links mt-4">
+                    <p><a href="https://open.spotify.com/show/0QjlU5Ezl2e5D03smp8laC?si=pSdaXX9MTbaNCUw8KfUopw" target="_blank">Spotify</a></p>
+                    <p><a href="https://podcasts.apple.com/us/podcast/brunos-you-dont-have-to/id1816593681" target="_blank">Apple Podcasts</a></p>
+                    <p><a href="mailto:Brunos.Podcast44@gmail.com">Brunos.Podcast44@gmail.com</a></p>
+                    <p><a href="https://www.instagram.com/brunos_podcast/" target="_blank">Instagram</a></p>
+                    <p><a href="https://www.tiktok.com/@brunos.podcast" target="_blank">TikTok</a></p>
+                </div>
+             </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">© 2025 Bruno’s You Don’t Have To - All Rights Reserved</p>
+            <div class="social-icons mt-2">
+                <a href="FACEBOOK_URL" class="text-white mx-2"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/brunos_podcast/" class="text-white mx-2"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.tiktok.com/@brunos.podcast" class="text-white mx-2"><i class="bi bi-tiktok"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Vanilla JS for Header Scroll Effect -->
+    <script>
+        const nav = document.querySelector('.navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY >= 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+    </script>
+
+</body>
+</html>
